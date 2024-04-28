@@ -21,7 +21,9 @@ let ask = await inquirer.prompt(
 
 })
 
-switch (ask.day) {
+let day = ask.day
+
+switch (day) {
     case "Monday":
         console.log("Today is Monday");
         console.log("Its The Start Of Week Just Start The Work");
